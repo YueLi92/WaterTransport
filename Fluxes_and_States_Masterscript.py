@@ -602,6 +602,6 @@ for yearnumber in years:
             # np.savez_compressed(datapath[23],Fa_E_top,Fa_N_top,Fa_E_down,Fa_N_down,Fa_Vert,E,P,W_top,W_down)
             
         end = timer()
-        print 'Runtime fluxes_and_storages for day ' + str(a+1) + ' in year ' + str(yearnumber) + ' is',(end - start),' seconds.'
+        print 'Run time fluxes_and_storages for day ' + str(a+1) + ' in year ' + str(yearnumber) + ' is',(end - start),' seconds.'
 end1 = timer()
 print 'The total runtime is',(end1-start1),' seconds.'
